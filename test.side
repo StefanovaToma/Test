@@ -1,0 +1,46 @@
+{
+  "id": "71588bdc-e1ea-408e-88f4-655ebfa723c2",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.awesomescreenshot.com/video/9449793?key=b6fade3e318c5369a2b4771f363433e7",
+  "tests": [{
+    "id": "c5c2643e-9297-4f6a-9797-338370e4271e",
+    "name": "test",
+    "commands": [{
+      "id": "f01bed39-0896-4618-b0ea-7c402f14b502",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.awesomescreenshot.com/video/9449793?key=b6fade3e318c5369a2b4771f363433e7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b11a4cac-995f-44dc-8483-0e0356c0fe73",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "860x680",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3f4cbba8-1f1e-42f6-baa2-40db0fe97079",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "css=.error-tip",
+      "targets": [
+        ["css=.error-tip", "css:finder"],
+        ["xpath=//div[@id='app']/div[2]/div[2]/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"]
+      ],
+      "value": "We can't find a video you are looking for"
+    }]
+  }],
+  "suites": [{
+    "id": "ce7e231f-5978-4e1a-ac3a-4c642663f4f8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://mail.google.com/", "https://www.awesomescreenshot.com/video/9449793?key=b6fade3e318c5369a2b4771f363433e7"],
+  "plugins": []
+}
